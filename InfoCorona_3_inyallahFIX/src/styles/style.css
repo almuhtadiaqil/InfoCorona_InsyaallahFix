@@ -1,0 +1,77 @@
+h1 {
+    display: inline;
+}
+img{
+    margin: 0px 10px 20px 45px;
+}
+.h2 {
+    margin: -10px 0px 0px 110px;
+    font-weight: 300;
+}
+.flex-column {
+    margin-top: 20px ;
+    padding: 20px;
+    width: 250px;
+    height: 260px;
+    background-color: black;
+    float: left;
+}
+#carouselExampleCaptions {
+    display: flex;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.carousel-item {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    
+}
+#positif {
+    flex-basis: 100%;
+    background-color: #f82649;
+}
+#sembuh {
+    flex-basis: 100%;
+    background-color: #09ad95;
+}
+#meninggal {
+    flex-basis: 100%;
+    background-color: #d43f8d;
+}
+#indonesia {
+    flex-basis: 100%;
+    background-color: #fc7303;
+}
+table {
+    margin: auto;
+    max-height: 450px;
+}
+td, th {
+    padding: 5px;
+}
+#provinsi {
+    margin: 20px;
+    max-height: 450px;
+    max-width: 50%;
+    float: left;
+}
+#global {
+    margin: 5px;
+    max-height: 500px;
+    max-width: 50%;
+    float: right;
+}
+@media screen and (max-width: 900px) {
+    .bd-example {
+        width: 50%;
+        margin: auto;
+    }
+    .flex-column {
+        width: 100%;
+    }
+}
